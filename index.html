@@ -3,47 +3,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Dos Palomas Dove Hunt 2025</title>
+  <title>Dos Palomas Dove Hunt</title>
   <style>
     body {
+      background-color: #f7f9f7;
+      font-family: Arial, sans-serif;
+      text-align: center;
       margin: 0;
       padding: 0;
-      font-family: sans-serif;
-      background-color: #f3f3f1;
-      text-align: center;
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
     }
     img {
-      width: 100%;
-      max-width: 800px;
-      margin: 30px auto;
-      display: block;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
       border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
     }
-    .cta {
-      margin: 40px 0;
+    img:hover {
+      transform: scale(1.02);
     }
-    .cta a {
-      background-color: #843200;
-      color: #fff;
-      padding: 14px 28px;
-      font-size: 18px;
+    .rsvp-button {
+      display: inline-block;
+      background-color: #6a4f29;
+      color: white;
+      padding: 14px 24px;
       text-decoration: none;
+      font-size: 18px;
       border-radius: 6px;
-      font-weight: bold;
+      margin-top: 30px;
+      transition: background-color 0.3s;
     }
-    .cta a:hover {
-      background-color: #a94c00;
+    .rsvp-button:hover {
+      background-color: #8b673d;
     }
   </style>
 </head>
 <body>
-  <img src="Dos-Palomas-Dove-Hunt--flyer-font.jpg" alt="Dos Palomas Dove Hunt Invitation">
-  <img src="Dos-Palomas-Dove-Hunt--flyer-back.jpg" alt="Dos Palomas Dove Hunt Schedule">
-  <div class="cta">
+  <div class="container">
     <a href="https://docs.google.com/forms/d/18y6bn-bkjdf7hrk89d_4pLxVK5xOaZ5D0HOYKz8VM7w/viewform?edit_requested=true" target="_blank">
-      RSVP Now
+      <img src="Dos-Palomas-Dove-Hunt--flyer-font.jpg" alt="Dos Palomas Dove Hunt Front Flyer">
     </a>
+    <a href="https://docs.google.com/forms/d/18y6bn-bkjdf7hrk89d_4pLxVK5xOaZ5D0HOYKz8VM7w/viewform?edit_requested=true" target="_blank">
+      <img src="Dos-Palomas-Dove-Hunt--flyer-back.jpg" alt="Dos Palomas Dove Hunt Back Flyer">
+    </a>
+    <a class="rsvp-button" href="https://docs.google.com/forms/d/18y6bn-bkjdf7hrk89d_4pLxVK5xOaZ5D0HOYKz8VM7w/viewform?edit_requested=true" target="_blank">RSVP Now</a>
   </div>
 </body>
 </html>
